@@ -49,7 +49,7 @@ public class MleModelMediaRef extends MleMediaRef implements IModelMediaRef
      * @return The loaded model is returned as a <code>Model</code>.
      *
      * @throws MleRuntimeException This exception is thrown if the
-     * meida reference data can not be successfully read.
+     * media reference data can not be successfully read.
      */
     public Model read()
         throws MleRuntimeException
@@ -59,7 +59,7 @@ public class MleModelMediaRef extends MleMediaRef implements IModelMediaRef
         // Get the data associated with the media reference.
         byte[] buffer = m_references.m_buffer;
 
-        // Read Image from external reference.
+        // Read Model from external reference.
         if (buffer != null)
     	{
             // Set the reference for the converter.

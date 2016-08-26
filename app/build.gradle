@@ -24,6 +24,7 @@ dependencies {
     compile files('libs/mlert.jar')
     compile files('libs/parts.jar')
     testCompile 'junit:junit:4.12'
+    compile project(':min3d-debug')
 }
 
 // Task to delete the old jar.

@@ -78,7 +78,7 @@ public class MleImageMediaRef extends MleMediaRef implements IImageMediaRef
      * @return The loaded image is returned as an <code>Image</code>.
      * 
      * @throws MleRuntimeException This exception is thrown if the
-     * meida reference data can not be successfully read.
+     * media reference data can not be successfully read.
      */
     public Bitmap read()
         throws MleRuntimeException
