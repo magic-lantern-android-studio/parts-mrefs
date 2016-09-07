@@ -78,8 +78,8 @@ public class MleModelMediaRef extends MleMediaRef implements IModelMediaRef
     			    String subclassName = m_R.getName() + "$raw";
     			    Class subclass = Class.forName(subclassName);
     	            int id = ResourceManager.getResourceId(subclass, filename);
-                    String rID = m_resources.getString(id);
-                    ObjLoader loader = new ObjLoader(m_resources, rID, false);
+                    //String rID = m_resources.getString(id);
+                    ObjLoader loader = new ObjLoader(m_resources, id, false);
                     model = loader.loadObject();
     			} catch (ClassNotFoundException ex)
     			{
